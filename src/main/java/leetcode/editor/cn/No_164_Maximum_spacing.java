@@ -18,6 +18,8 @@ import java.util.Map;
  * <p>
  * 你可以假设数组中所有元素都是非负整数，且数值在 32 位有符号整数范围内。
  * 请尝试在线性时间复杂度和空间复杂度的条件下解决此问题。
+ * <p>
+ * todo: review 某次看到该问题还是没想到解题思路
  */
 public class No_164_Maximum_spacing {
     @Test

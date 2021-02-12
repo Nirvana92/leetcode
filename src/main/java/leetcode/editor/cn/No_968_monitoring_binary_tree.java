@@ -5,7 +5,8 @@ import org.junit.Test;
 /**
  * @author gzm
  * @date 2020/9/22 7:00 下午
- * @desc: 并查集结构和图相关
+ * @desc: 监控二叉树.
+ * 并查集结构和图相关
  */
 public class No_968_monitoring_binary_tree {
     @Test
