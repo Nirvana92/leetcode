@@ -1,5 +1,11 @@
 package leetcode.editor.cn;
 
+/**
+ * 33. 搜索旋转排序数组
+ *
+ * 有些不同的思路:
+ * 可参考: https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/duo-si-lu-wan-quan-gong-lue-bi-xu-miao-dong-by-swe/
+ */
 public class No_33 {
     public static void main(String[] args) {
         No_33 no_33 = new No_33();
