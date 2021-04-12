@@ -9,6 +9,8 @@ import org.junit.Test;
  * 1759. 统计同构子字符串的数目
  */
 public class No_1759_Count_the_number_of_isomorphic_substrings {
+    int MOD = 1000000007;
+
     @Test
     public void test() {
         String s = "abbcccaa";
@@ -19,8 +21,6 @@ public class No_1759_Count_the_number_of_isomorphic_substrings {
 //        int sums = getSums(100001L);
 //        System.out.println(sums);
     }
-
-    int MOD = 1000000007;
 
     public int countHomogenous(String s) {
         long nums = 0;

@@ -37,6 +37,12 @@ public class No_354_Russian_doll_envelope_problem {
         System.out.println(maxEnvelopes);
     }
 
+    /**
+     * 最长递增子序列的问题处理
+     *
+     * @param arr
+     * @return
+     */
     public static int lis(int[] arr) {
         int[] dp = new int[arr.length];
         int[] ends = new int[arr.length];

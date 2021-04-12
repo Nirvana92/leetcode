@@ -63,4 +63,18 @@ public class No_153_Find_the_smallest_value_in_a_rotated_sorted_array {
 
         return nums[l];
     }
+
+    public int findMin2(int[] nums) {
+        int left = 0;
+        int right = nums.length - 1;
+        while (right > left) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] > nums[right]) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        }
+        return nums[left];
+    }
 }
